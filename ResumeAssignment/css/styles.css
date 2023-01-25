@@ -1,0 +1,77 @@
+/** Jason Bilodeau  Web 210  January 23, 2023 **/ 
+
+/* 
+484041 Dark Liver 
+434371 Purple Navy 
+79AEA3 Green Sheen 
+70EE9C Light Green 
+BF544A Green Lizard 
+*/
+
+/* Global Styles */
+
+body {
+    color: #484041;
+
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #70EE9C;
+    text-decoration: none; 
+}
+
+a:hover {
+    background: gray;
+    text-decoration: none;
+}
+
+
+/* Profile */
+
+header {
+    background: #434371;
+    color: white; 
+}
+
+
+/* Projects */
+
+.projects {
+    background: #79AEA3;
+}
+
+.projects .btn {
+    color: white;
+    background: black; 
+    padding: 8px; 
+    border-radius: 10px;
+}
+
+.projects .btn:hover {
+    background: rgba(47,48,97,80%);
+}
+
+/* Work Experience  */
+
+.work {
+    background: #70EE9C;
+}
+
+/* Education  */
+
+.education {
+    background: #BF544A;
+    color: white;
+}
+
+/* Contact Info */
+
+footer {
+    background: #343434;
+    color: white;
+}
+
